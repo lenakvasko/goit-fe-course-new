@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    font-family: 'Playfair Display', serif;
+    color:rgb(98,98,98);
+    margin: 0 auto;
+    width:  900px;
+}
+.header {
+    display: inline-block;
+    width: 900px;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.nav-list:not(:last-child) {
+    margin-right: 100px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: rgb(98,98,98);
+}
+.nav-list {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+    color:purple;
+}
+.gallery {
+    font-size: 0;
+}
+.article-category {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 24px;
+    margin-left: auto;
+}
+.article {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+}
+.article:not(:nth-last-child(-n+2)){
+    margin-bottom: 130px;
+}
+.article:nth-child(2n){
+    margin-right: 0;
+}
+.article-headind {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.article-desc {
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer {
+    width: 900px;
+    box-sizing: border-box;
+    padding-top: 56px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.button {
+    border: solid 1px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    width: 164px;
+    height: 60px;
+    cursor: pointer;
+}
