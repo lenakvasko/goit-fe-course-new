@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+
+    .first_wrapper_header {
+        background-image: url(../img/background.jpg);
+        min-width: 748px;
+    }
+    .header {
+        max-width: 660px;
+        margin: auto;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .logo a {
+        margin-top: 0;
+    }
+    .nav_item {
+        margin-right: 60px;
+    }
+    .title {
+        max-width: 492px;
+        margin: 164px auto 0;
+        padding-bottom: 218px;
+    }
+    .main_title {
+        font-size: 47px;
+    }
+    .main_subtitle {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    .button_first {
+        margin-top: 40px;
+        max-width: 226px;
+        font-size: 14px;
+    }
+    .cards {
+        max-width: 492px;
+    }
+    .second_title {
+        width: 82.113%;
+    }
+    .cards_conteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_wrapper {
+        width: 47.967479%;
+        margin: 30px auto;
+    }
+    .card_wrapper:not(:nth-last-child(-n+2)) {
+        margin-bottom: 0;
+    }
+    .button_second {
+        max-width: 280px;
+    }
+}
+
+@media (min-width: 940px) {
+    .first_wrapper_header {
+        background-image: url(../img/background.jpg);
+        max-width: 100%;
+    }
+    .header {
+        max-width: 940px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .logo a {
+        margin-top: 0;
+    }
+    .nav_item {
+        margin-right: 60px;
+    }
+    .title {
+        max-width: 532px;
+        margin: 164px auto 0;
+        padding-bottom: 219px;
+    }
+    .main_title {
+        font-size: 51px;
+    }
+    .main_subtitle {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .button_first {
+        font-size: 14px;
+        margin-top: 40px;
+        max-width: 226px;
+    }
+    .cards {
+        max-width: 940px;
+    }
+    .second_title {
+        width: 48.9361%;
+    }
+    .cards_conteiner {
+        display: flex;
+    }
+    .card_wrapper {
+        width: 23.404%;
+        margin:30px auto 30px;
+    }
+    .card_wrapper:not(:nth-last-child(-n+2)) {
+        margin-bottom: 0;
+    }
+}
