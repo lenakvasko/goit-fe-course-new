@@ -453,7 +453,9 @@
     -o-transition: 200ms linear;
     transition: 200ms linear;
 }
-  
+.footer-box__form {
+    font-size: 0;
+} 
 
 .footer-box__form-btn:hover {
     background-color: #f59191;
